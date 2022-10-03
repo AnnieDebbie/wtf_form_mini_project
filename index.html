@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+    <div class="body-container">
+      <form class="form-container">
+        <div class="input-group">
+          <label class="form-labels" for="first_name"> First name</label>
+          <input
+            class="form-input-fields"
+            required
+            id="first_name"
+            type="text"
+          />
+        </div>
+
+        <div class="input-group">
+          <label class="form-labels" for="last_name">Last name</label>
+          <input
+            class="form-input-fields"
+            id="last_name"
+            required
+            type="text"
+          />
+        </div>
+
+        <div class="input-group">
+          <label class="form-labels" for="email">Email</label>
+          <input class="form-input-fields" id="email" required type="email" />
+        </div>
+
+        <div class="input-group">
+          <label class="form-labels" for="password">Password</label>
+          <input
+            class="form-input-fields"
+            id="password"
+            required
+            pattern=""
+            type="password"
+          />
+        </div>
+
+        <div class="input-group">
+          <label class="form-labels" for="confirm_password"
+            >Confirm password</label
+          >
+          <input
+            class="form-input-fields"
+            id="confirm_password"
+            required
+            pattern=""
+            type="password"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
