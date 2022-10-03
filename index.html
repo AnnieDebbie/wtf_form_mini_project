@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Registration Form</title>
   </head>
@@ -11,6 +17,14 @@
   <body>
     <div class="body-container">
       <form class="form-container">
+        <div class="form-header">
+          <img
+            src="./assets/happy_bunch_avatar.png"
+            alt="happy bunch avatar logo"
+          />
+          <p class="form-header-txt">Log in to your account</p>
+        </div>
+
         <div class="input-group">
           <label class="form-labels" for="first_name"> First name</label>
           <input
@@ -55,13 +69,12 @@
             class="form-input-fields"
             id="confirm_password"
             required
-            pattern=""
             type="password"
           />
         </div>
 
-        <div class="login-btn-container">
-            <button id="login-btn"> Log in </button>
+        <div class="input-group">
+          <button id="login-btn">Log in</button>
         </div>
       </form>
     </div>
