@@ -62,4 +62,20 @@ body {
     border: none;
     border-radius: 10px;
     padding: 12px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width:600px) {
+    .form-container {
+        position: absolute;
+        width: 360px;
+        height: 596px;
+        top: calc(50% - 298px);
+        right: calc(50% - 180px)
+    }
+
 }
